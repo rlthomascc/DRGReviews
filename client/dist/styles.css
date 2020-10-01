@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.homecontainer {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+}
+
+.maincontainer {
+    margin: auto;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+}
+
+.mainTextContainer {
+    margin-top: 30px;
+}
+
+.textareacontainer {
+    padding: 10px 10px 10px 10px;
+}
+
+.buttonContainer {
+    padding: 10px 0px 10px 0px;
+}
+
+.footerContainer {
+    padding: 20px 20px 20px 20px;
+}
+
+.finalText {
+    color: #cda135
+}
