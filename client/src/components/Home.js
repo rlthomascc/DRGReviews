@@ -14,6 +14,8 @@ class Agent extends Component {
             jennifer1: "https://i.imgur.com/LQmUbpf.jpg",
             randy1: "https://i.imgur.com/4XmxoVF.png",
             michael1: "https://i.imgur.com/rxtf6II.jpg",
+            matt1: 'https://i.imgur.com/H0yBkuw.png',
+            nathan1: 'https://i.imgur.com/gsLF5Ba.png',
             reroute: '-'
         }
     }
@@ -75,6 +77,17 @@ class Agent extends Component {
 
                     <div className="row">
                         <div className="col">
+                        <a id="nathanAgent" href="/#/Nathan-Steingrebe"><img src={this.state.nathan1} width="250px" height="250px" /></a>
+                        <p><b><br />Nathan Steingrebe</b> <br />Realtor®</p>
+                        </div>
+                        <div className="col">
+                        <a id="mattAgent" href="/#/Matt-Foster"><img src={this.state.matt1} width="250px" height="250px" /></a>
+                        <p><b><br />Matt Foster</b> <br />Realtor®</p>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col">
                         <a id="jenniferAgent" href="/#/Jennifer-Gonzales"><img src={this.state.jennifer1} width="250px" height="250px" /></a>
                         <p><b><br />Jennifer Edwards</b> <br />Realtor®</p>
                         </div>
@@ -83,6 +96,7 @@ class Agent extends Component {
                         <p><b><br />Joseph Bondi, CRS</b> <br />Senior Advisor</p>
                         </div>
                     </div>
+
                 </div>
             </div>
         );
