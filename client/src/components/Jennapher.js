@@ -45,7 +45,7 @@ class Jennapher extends Component {
     setTimeout(() => this.copiedText(false), 1000);
   }
 
-  don() {
+  jennapher() {
     return (
       <div className="maincontainer">
 

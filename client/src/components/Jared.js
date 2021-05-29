@@ -45,7 +45,7 @@ class Jared extends Component {
     setTimeout(() => this.copiedText(false), 1000);
   }
 
-  don() {
+  jared() {
     return (
       <div className="maincontainer">
 
