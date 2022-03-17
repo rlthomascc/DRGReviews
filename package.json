@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "react": "webpack -d --watch",
-    "server": "nodemon server/index.js rs"
+    "server": "nodemon server/index.js rs",
+    "build": "webpack",
+    "server": "node server/index.js",
+    "start": "webpack && node server/index.js"
   },
   "author": "Randy Thomas",
   "license": "ISC",
