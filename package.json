@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "css-loader": "^2.0.1",
+    "axios": "^0.18.1",
     "dotenv": "^6.2.0",
     "file-loader": "^2.0.0",
     "mongoose": "^4.9.6",
