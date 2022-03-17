@@ -3,6 +3,7 @@
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
+import axios from 'axios';
 import {
   Route, HashRouter, BrowserRouter, Redirect, Router,
 } from 'react-router-dom';
