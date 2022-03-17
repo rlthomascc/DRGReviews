@@ -8,6 +8,7 @@
 /* eslint-disable no-useless-constructor */
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
+import axios from 'axios';
 import {
   Redirect, Route, HashRouter, Link,
 } from 'react-router-dom';
