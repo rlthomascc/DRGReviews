@@ -50,11 +50,18 @@ class Nathan extends Component {
       <div className="maincontainer">
 
         <div className="mainTextContainer">
-          <img width="800px" src="https://ap.rdcpix.com/1036509265/417b016b4e6aeb084d753cc5f7d23832g-c0od-w1200_h400_q100.jpg"/>
+          {/* <img width="800px" src="https://ap.rdcpix.com/1036509265/417b016b4e6aeb084d753cc5f7d23832g-c0od-w1200_h400_q100.jpg"/> */}
+          <img width="800px" src="https://images.unsplash.com/photo-1544933863-582aca697094?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1635&q=80" />
           <br/>
           <br/>
           <br/>
-          <p className="font-weight-bold"><i>Step 1: Insert description below, then click Copy</i></p>
+          <br/>
+          <p className="h1 font-weight-bold finalText" >Want to win a Tropical Getaway?!</p>
+          <p className="h5"><i>Its simple! Leave us a review on Google & Zillow to enter!</i></p>
+          <br/>
+          <hr/>
+          <br/>
+          <p><b>Step 1:</b> Insert description below, then click Copy</p>
         </div>
 
         <textarea className="textareacontainer" id="review" rows="5" cols="70" placeholder="Write your review here. . ."></textarea>
@@ -68,7 +75,8 @@ class Nathan extends Component {
         <div className="reviewButtonContainer d-flex flex-column justify-content-between">
           <br/>
           <br/>
-          <p className="font-weight-bold"><i>Step 2: Click the images below to route to the review websites, then paste the message you copied above.</i></p>
+          <p><b>Step 2:</b> Click the images below to route to the review websites, 
+            <br/>then paste the message you copied above.</p>
           <div className="p2">
             <a href="https://www.google.com/search?q=The+Del+Real+Group+%7C+PMZ&ludocid=16470356922505957134&lsig=AB86z5X2s57l3O7n7VKcHsKRhQC_#lrd=0x80905179bdeeba05:0xe492765b79dd0f0e,3" target="_blank">
               <img width="300px" src="https://cdn.vox-cdn.com/thumbor/p01ezbiuDHgRFQ-htBCd7QxaYxo=/0x105:2012x1237/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg"/>
@@ -79,25 +87,32 @@ class Nathan extends Component {
               <img width="300px" src="https://zillow.mediaroom.com/download/Zillow_Wordmark_Blue_RGB+lrg.png" />
             </a>
           </div>
-          <div className="p2">
-            <a href="https://www.realtor.com/realestateteam/the-del-real-group_modesto_ca_3011066" target="_blank">
-              <img width="350px" src="https://tnrealtors.com/wp-content/uploads/2017/03/Realtor-dot-com-logo-F_RDC_RGB_Red_Black-2.jpg" />
+          <br/>
+          <div className="footerContainer">
+          <p className="finalText"><i>Your Reviews and Referrals are greatly appreciated! 
+            <br/>Thank you for taking the time of day to leave us reviews!
+            <br/>
+            -The Del Real Group</i></p>
+            <hr/>
+        </div>
+          <br/>
+          <div className="mainTextContainer">
+            <img  width="600" src="https://images.unsplash.com/photo-1487252743978-58058cd2fc34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1692&q=80" />
+          </div>
+          <br/>
+            <p><i>For additional Entries:</i></p>
+          <div className='d-flex flex-row justify-content-center'>
+          <div className="p2 realtorLogo">
+            <a href="https://www.realtor.com/realestateagents/daniel-del-real_modesto_ca_1204657_073494348#" target="_blank">
+              <img width="150" src="https://tnrealtors.com/wp-content/uploads/2017/03/Realtor-dot-com-logo-F_RDC_RGB_Red_Black-2.jpg" />
             </a>
           </div>
           <div className="p2">
             <a href="https://www.yelp.com/writeareview/biz/q7ImrPf7UA61gH5zFhSrFA?return_url=%2Fbiz%2Fq7ImrPf7UA61gH5zFhSrFA&source=biz_details_war_button" target="_blank">
-              <img width="300px" src="https://www.dwrl.utexas.edu/wp-content/uploads/2017/02/yelp-logo-vector.jpg" />
+              <img width="100px" src="https://www.dwrl.utexas.edu/wp-content/uploads/2017/02/yelp-logo-vector.jpg" />
             </a>
           </div>
-        </div>
-        
-        <hr/>
-
-        <div className="footerContainer">
-          <p className="finalText"><i>Your Reviews and Referrals are greatly appreciated! Thank you for taking the time of day to leave us reviews!
-            <br/>
-            <br/>
-            -The Del Real Group</i></p>
+          </div>
         </div>
       </div>
     )

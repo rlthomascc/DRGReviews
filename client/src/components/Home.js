@@ -13,7 +13,7 @@ class Agent extends Component {
             amanda1: "https://i.imgur.com/NFJgzHz.png",
             joseph1: "https://i.imgur.com/NC56MmH.png",
             jennifer1: "https://i.imgur.com/LQmUbpf.jpg",
-            randy1: "https://i.imgur.com/4XmxoVF.png",
+            randy1: "https://i.imgur.com/qRlRpFT.png",
             michael1: "https://i.imgur.com/rxtf6II.jpg",
             matt1: 'https://i.imgur.com/H0yBkuw.png',
             nathan1: 'https://i.imgur.com/gsLF5Ba.png',
