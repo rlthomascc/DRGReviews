@@ -22,6 +22,7 @@ class Agent extends Component {
             james1: 'https://i.imgur.com/SJ3N2ac.png',
             eddie1: 'https://i.imgur.com/0EPgCic.png',
             luke1: 'https://i.imgur.com/iiSv5Ox.png',
+            amy1: 'https://i.imgur.com/6L1uuZ0.png',
             reroute: '-'
         }
     }
@@ -127,6 +128,13 @@ class Agent extends Component {
                         <div className="col">
                         <a id="lukeAgent" href="/#/Luke-Foster"><img src={this.state.luke1} width="250px" height="250px" /></a>
                         <p><b><br />Luke Foster</b> <br />Realtor®</p>
+                        </div>
+                    </div>
+
+                    <div className ="row">
+                        <div className="col">
+                        <a id="amyAgent" href="/#/Amy-Windschitl"><img src={this.state.amy1} width="250px" height="250px" /></a>
+                        <p><b><br />Amy Windschitl</b> <br />Realtor®</p>
                         </div>
                     </div>
 

@@ -25,6 +25,7 @@ import Jared from './components/Jared';
 import Eddie from './components/Eddie';
 import James from './components/James';
 import Luke from './components/Luke';
+import Amy from './components/Amy';
 
 class Routes extends Component {
   constructor(props) {
@@ -221,6 +222,16 @@ class Routes extends Component {
               strict
               render={() => (
                 <Luke changeAddress={this.changeAddress.bind(this)} />
+              )}
+            />
+          </div>
+          <div>
+            <Route
+              path="/Amy-Windschitl"
+              exact
+              strict
+              render={() => (
+                <Amy changeAddress={this.changeAddress.bind(this)} />
               )}
             />
           </div>
